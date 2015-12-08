@@ -13,7 +13,9 @@
 
 2. Responsive
 
-* used Fluid responsive just in case adaptive to many screen sizes 
+* used Fluid responsive just in case adaptive to many screen sizes
+
+* columns width 74% (LHS) and 24% (RHS)
 
 * Mobile responsive is added
 
@@ -77,7 +79,6 @@ but use of JS is discouraged and I came with below solution
 * added a few small things for hovers
 
 
-
 6. Scripts
 
 * no scripts added
@@ -98,7 +99,7 @@ but use of JS is discouraged and I came with below solution
 
 * added as a sprite image
 
-* smaller icons with Mobile version
+* smaller icons for Mobile version
 
 * PNG transparency for IE6 can be solved if bug fix added or add below line onto CSS
 

@@ -30,11 +30,23 @@
 canvas, details, hgroup, progress, table, ol etc 
 
 
-4. Responsive navigation for mobile
+4. Responsive navigation menu for mobile
 
 * no JS used as required
 
-* click menu link works such as hover of #nav:hover .menu {display:block} or .menu-link:hover .menu
+* brief : On mobile , clicking on the “menu” link should display the menu entries to the user.
+
+click "menu" link can mean to add small script such as JQuery
+
+		$(".menu-link").click(function() {
+			$(".menu").slideToggle("fast");
+			return false;
+		});
+
+but use of JS is discouraged and I came with below solution
+
+
+* click "menu" link works such as hover of #nav:hover .menu {display:block} or .menu-link:hover .menu
 
 * bonus but not required - structure can be also presented in diffrent way such as below
 
@@ -56,6 +68,8 @@ canvas, details, hgroup, progress, table, ol etc
 	</nav><!-- /#nav -->
 
 	#nav li:hover .menu {display:block}
+
+
 
 
 5. CSS 3
